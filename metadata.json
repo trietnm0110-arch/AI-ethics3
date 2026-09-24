@@ -1,0 +1,8 @@
+{
+  "name": "AI ethics",
+  "description": "mô tả và phân tích cách sử dụng của người dùng sao cho phù hợp đạo đức sử dụng ai",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
