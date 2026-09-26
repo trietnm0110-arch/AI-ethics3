@@ -6,6 +6,7 @@ import { defineConfig, type Plugin } from 'vite';
 import dotenv from 'dotenv';
 import { handleChatWithGemini } from './server/geminiService';
 
+// Load server-side environment variables during each build and deploy.
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -60,4 +61,3 @@ export default defineConfig(() => {
     },
   };
 });
-
